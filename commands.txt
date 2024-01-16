@@ -1,0 +1,14 @@
+Backend
+npm i express dotenv
+npm i -D typescript @types/express @types/node
+npx tsc --init
+npm i -D nodemon ts-node
+npm install prisma --save-dev
+npx prisma init --datasource-provider postgresql
+
+
+Frontend
+npx create-react-app .
+npm install -D tailwindcss
+npx tailwindcss init
+npm install axios
